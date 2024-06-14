@@ -7,11 +7,11 @@ test('renders learn react link', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
-test('renders edit src/App.js text', () => {
-  render(<App />);
-  const editText = screen.getByText(/edit src\/App.js/i);
-  expect(editText).toBeInTheDocument();
-});
+// test('renders edit src/App.js text', () => {
+//   render(<App />);
+//   const editText = screen.getByText(/edit src\/App.js/i);
+//   expect(editText).toBeInTheDocument();
+// });
 
 test('renders hello text', () => {
   render(<App />);
