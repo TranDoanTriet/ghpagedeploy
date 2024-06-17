@@ -13,9 +13,9 @@ test('renders learn react link', () => {
 //   expect(editText).toBeInTheDocument();
 // });
 
-test('renders hello text', () => {
+test('renders welcome text', () => {
   render(<App />);
-  const helloText = screen.getByText(/hello/i);
+  const helloText = screen.getByText(/welcome/i);
   expect(helloText).toBeInTheDocument();
 });
 
