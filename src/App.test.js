@@ -15,7 +15,7 @@ test('renders learn react link', () => {
 
 test('renders welcome text', () => {
   render(<App />);
-  const helloText = screen.getByText(/welcome/i);
+  const helloText = screen.getByText(/hello/i);
   expect(helloText).toBeInTheDocument();
 });
 
